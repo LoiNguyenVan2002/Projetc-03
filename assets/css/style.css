@@ -220,7 +220,7 @@ a {
 .active-student .avatar-group .avatar:first-child {
   margin-left: 0;
 }
-.button {
+.hero .button {
   display: inline-flex;
   justify-content: center;
 }
@@ -480,6 +480,25 @@ a {
   transform: translateY(-50%);
 }
 
+.quote .info .button {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.quote .button .previous-btn {
+  margin-top: 52px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote .previous-btn .btn-page {
+}
 .quote-row {
   display: flex;
 }
@@ -541,4 +560,83 @@ a {
   border-radius: 50%;
   left: 0;
   bottom: 145px;
+}
+
+.started {
+  margin-top: 130px;
+  background: #def6f5;
+}
+.started .started-row {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.started .heading {
+  padding: 76px 0 18px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.started .get-admit .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 88px;
+}
+.started .get-started {
+  position: absolute;
+  top: 96px;
+  right: 154px;
+}
+
+.footer {
+  margin-top: 130px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-row .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer-row .column .list {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-row .column a {
+  color: #535353;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 18px;
+}
+.footer-row .column a:first-child {
+  padding-top: 0;
+}
+.footer .list img {
+  padding-right: 9px;
+}
+.footer .list .span {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .copyright .desc {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 50px;
 }
